@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+html {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    text-decoration-color: black;
+    margin-right: 80px;
+}
+
+/* Style des titres  */
+
+h1 {
+    size: 32px;
+    font-style: bold;
+    padding: 10px;
+    border: 1px solid black;
+    background: #CECECE;
+    border-radius: 10px;
+}
+
+h3 {
+    size: 20px;
+    font-style : italic;
+    font-style: bold;
+}
+
+/* Style du corps du texte  */
+
+p {
+    size: 16px;
+
+}
+
+/* Entête du CV*/
+
+#header {
+    position: absolute;
+    left: 300px;
+    right: 60px;
+    text-align: center;
+}
+
+/* Style et position des logos "langages"*/
+
+.logo-code {
+    width: 10%;
+    margin: 0px 60px 0px 60px;
+}
+
+#logoPhp{
+    width: 15%;
+}
+
+/* Corps du CV  */
+
+#corpsCv {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    right: 60px
+}
+
+#experiencesPro{
+    margin-top: 330px;
+}
+
+/* Alignements et position des puces - parties "Compétences" et Expériences professionnelles" */
+
+.bloc-puces{
+    margin-left: -20px;
+
+}
+
+.bloc-puces ul {
+    display: inline-block;
+    margin-right: 50px;
+
+
+}
+
+.bloc-puces li {
+    padding: 20px 0 0 0px;
+
+}
+
+/* Alignements et position des blocs de texte - parties "Projets" */
+
+.bloc-projets {
+
+    margin-bottom: 100px;
+}
+
+.blocs-droite {
+    float:right;
+    width: 460px;
+    position:relative;
+}
+
+
+.blocs-gauche{
+    float:left;
+    width: 460px;
+    position:relative;
+}
+
+/* Style de la photo du candidat*/
+
+#photo {
+    border: 1px solid black;
+    width: 16%;
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+
+/* Positionnement Etat civil, Hobbies et boutons  */
+
+#menuLateral {
+    position: fixed;
+    top: 210px;
+    left: 10px;
+}
+
+/* Style des boutons contact et réseaux-sociaux  */
+
+.boutons-reseau {
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    background-color: #22427C;
+    text-align: center;
+    width: 110px;
+    font-style : italic;
+    cursor:  pointer;
+}
+
+#bouton-contact {
+
+    width: 100%;
+}
+
+/* Style du bouton Impression du CV  */
+
+.bouton-impression {
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    white-space: nowrap;
+    background-color: #EE1010;
+    border-radius: 10px;
+    width: 230px;
+    text-align: center;
+    font-style : italic;
+    cursor:  pointer;
+}
+
